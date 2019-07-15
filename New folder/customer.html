@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> CUSTOMER</title>
+    <link rel="icon" href="New folder/m.png">
+
+    <style>
+        @media all and (max-width:1440px ) {
+        #headline{
+            width: 1400px;
+            height: 80px;
+            background-color:lightgoldenrodyellow;
+            border: 1px solid black;
+            box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+        #head{
+            margin-top: 10px;
+            margin-left: 600px;
+            position: absolute;
+        }
+          body {
+            font-family: sans-serif;
+          }
+
+          ul {
+            list-style-type: none;
+            margin-top: 8px;
+            padding: 0;
+            width: 250px;
+            height: 550px;
+            background-color: #f1f1f1;
+            position: absolute;
+            border: solid black 1px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          }
+
+          ul {
+            list-style-type: none;
+            margin-top: 8px;
+            padding: 0;
+            width: 200px;
+            background-color: #f1f1f1;
+          }
+
+          li a {
+            display: block;
+            color: #000;
+            padding: 8px 0 8px 16px;
+            text-decoration: none;
+          }
+
+          li a.active {
+            background-color: #4CAF50;
+            color: white;
+          }
+
+          li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+          }
+
+          #search{
+            position: relative;
+            margin-left: 998px;
+            margin-top: 8px;
+        }
+
+
+        #sheet{
+            background-color: lightgoldenrodyellow;
+            width: 1400px;
+            height: 550px;
+            position: absolute;
+            margin-top: 180px;
+        }
+        #image{
+            position: absolute;
+            margin-bottom: 30px;
+        }
+
+
+        #submit{
+     margin-top: 15px;
+     margin-left: 1000px;
+     position: absolute;
+               }
+        #img{
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 500px;
+        }
+        table {
+            width:800px;
+            height: 200px;
+            position: absolute;
+            margin-left: 490px;
+            margin-top: 120px;
+        }
+        table, th, td {
+            border: 1px solid #101a01;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+        table#t01 tr:nth-child(even) {
+            background-color: #eee;
+        }
+        table#t01 tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        table#t01 th {
+            background-color: #fe6e1c;
+            color: white;
+        }
+        #last{
+            width: 1340px;
+            height: 50px;
+            position: absolute;
+            margin-top: 570px;
+            background-color: #090270;
+        }
+        #a{
+            margin-top: 10px;
+            margin-left: 150px;
+            position: absolute;
+            color: yellow;
+        }
+        #add{
+            width: 200px;
+            height: 480px;
+            position: absolute;
+            margin-left: 260px;
+            margin-top: 40px;
+            background-color: gold;
+        }
+        #add1{
+            position: absolute;
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+        #button{
+            margin-top: 490px;
+            margin-left: 300px;
+            position: absolute;
+        }
+        #button2{
+            position: absolute;
+            margin-left: 1150px;
+            margin-top: 520px;
+        }
+        }
+        @media all and (max-width:375px ) {
+            #headline{
+                width: 1400px;
+                height: 80px;
+                background-color:lightgoldenrodyellow;
+                border: 1px solid black;
+                box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            }
+            #head{
+                margin-top: 10px;
+                margin-left: 600px;
+                position: absolute;
+
+            }
+
+
+            ul {
+                list-style-type: none;
+                margin-top: 1000px;
+                margin-left: 200px;
+                padding: 0;
+                width: 700px;
+                height: 550px;
+                background-color: #f1f1f1;
+                position: absolute;
+                border: solid black 1px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            li a {
+                display: block;
+                color: #000;
+                padding: 10px 0 10px 16px;
+                text-decoration: none;
+            }
+
+            li a.active {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #555;
+                color: white;
+            }
+
+            .active {
+                background-color: #4CAF50;
+            }
+
+            #search{
+                position: relative;
+                margin-left: 998px;
+                margin-top: 8px;
+            }
+
+
+            #sheet{
+                background-color: lightgoldenrodyellow;
+                width: 1400px;
+                height: 1800px;
+                position: absolute;
+                margin-top: 180px;
+            }
+            #image{
+                position: absolute;
+                margin-bottom: 30px;
+            }
+
+
+            #submit{
+                margin-top: 15px;
+                margin-left: 1000px;
+                position: absolute;
+            }
+            #img{
+                position: absolute;
+                margin-top: 18px;
+                margin-left: 500px;
+            }
+            table {
+                width:1800px;
+                height: 200px;
+                position: absolute;
+                margin-left: 400px;
+                margin-top: 540px;
+            }
+            table, th, td {
+                border: 1px solid #101a01;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 15px;
+                text-align: left;
+            }
+            table#t01 tr:nth-child(even) {
+                background-color: #eee;
+            }
+            table#t01 tr:nth-child(odd) {
+                background-color: #fff;
+            }
+            table#t01 th {
+                background-color: #fe6e1c;
+                color: white;
+            }
+            #last{
+                width: 1340px;
+                height: 50px;
+                position: absolute;
+                margin-top: 1800px;
+                background-color: #090270;
+            }
+            #a{
+                margin-top: 10px;
+                margin-left: 150px;
+                position: absolute;
+                color: yellow;
+            }
+            #add{
+                width: 200px;
+                height: 480px;
+                position: absolute;
+                margin-left: 260px;
+                margin-top: 40px;
+                background-color: gold;
+            }
+            #add1{
+                position: absolute;
+                margin-left: 0px;
+                margin-top: 20px;
+            }
+            #button{
+                margin-top: 490px;
+                margin-left: 300px;
+                position: absolute;
+            }
+            #button2{
+                position: absolute;
+                margin-left: 1200px;
+                margin-top: 520px;
+            }
+        }
+    </style>
+</head>
+
+
+<body bgcolor="red">
+
+<div id="head">
+<h1> Oder Goods</h1>
+</div>
+
+
+<div id="image">
+    <img src="New folder/a.jpg" alt="logo" width="120" height="80">
+</div>
+
+
+<div id="headline">
+    <div id="img">
+        <img src="New folder/oder.png" alt="logo">
+    </div>
+    <div id="sheet"></div>
+
+    <div id="search">
+    <form action="">
+        <input type="textarea" value="search here">
+        <button type="button">search</button>
+        <img src="New folder/mag.png" alt="search" height="30" width="30">
+    </form>
+</div>
+</div>
+
+<div id="last">
+    <div id="a">
+    price<input type="text">
+    -
+    discount<input type="text">
+    =
+    Total price<input type="text">
+    </div>
+    <div id="submit" >
+        <input type="button" value="submit oder"  onclick="window.location.href='payment.html'">
+        <input type="button" value="Cancel oder"  onclick="window.location.href='thanks.html'">
+
+    </div>
+</div>
+
+<ul>
+    <li><a href="home.html">Home</a></li>
+    <br>
+    <li><a  href="prices.html">Today prices</a></li>
+    <br>
+    <li><a href="customer1.html">Customer</a></li>
+    <br>
+    <li><a  class="active" href="customer.html">Oder goods</a></li>
+    <br>
+    <li><a href="aboutus.html">About us</a></li>
+    <br>
+    <li><a href="suppliers.html">suppliers</a></li>
+    <br>
+    <li><a href="index.html">Log out</a></li>
+    <br>
+</ul>
+
+
+<table id="t01">
+    <tr>
+        <th>customer name</th>
+        <th>customer Id</th>
+        <th>Item Corde</th>
+        <th>Item Name</th>
+        <th>Price (Rs)</th>
+        <th>Item Discount (%)</th>
+        <th>Quentity</th>
+<th>Date</th>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>C001</td>
+        <td>I001</td>
+        <td>#445</td>
+        <td>555</td>
+        <td>5</td>
+        <td>2</td>
+        <td>2019.01.02</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>C002</td>
+        <td>I002</td>
+        <td>#4255</td>
+        <td>825</td>
+        <td>20</td>
+        <td>7</td>
+        <td>2019.01.05</td>
+    </tr>
+    <tr>
+        <td>C</td>
+        <td>C003</td>
+        <td>I004</td>
+        <td>#0255</td>
+        <td>789</td>
+        <td>50</td>
+        <td>73</td>
+        <td>2019.01.15</td>
+
+    </tr>
+    <tr>
+        <td>D</td>
+        <td>C005</td>
+        <td>I006</td>
+        <td>#4985</td>
+        <td>1258</td>
+        <td>220</td>
+        <td>73</td>
+        <td>2019.01.25</td>
+    </tr>
+    <tr>
+        <td>E</td>
+        <td>C009</td>
+        <td>I007</td>
+        <td>#45385</td>
+        <td>1258</td>
+        <td>220</td>
+        <td>73</td>
+        <td>2019.01.17</td>
+    </tr>
+    <tr>
+        <td>F</td>
+        <td>C009</td>
+        <td>I007</td>
+        <td>#45385</td>
+        <td>1258</td>
+        <td>220</td>
+        <td>73</td>
+        <td>2019.01.17</td>
+    </tr>
+</table>
+<div id="add">
+    <div id="add1">
+        <B> Add customer here :</B>
+        <br>
+        <br>
+        <br>
+        customer name<input type="text">
+
+        customer id <input type="text">
+        <br>
+        <br>
+        Item<input type="text">
+
+        Item name <input type="text">
+        <br>
+        <br>
+        Price (Rs)<input type="text">
+
+        Item discount<input type="text">
+        <br>
+        <br>
+        Quentity<input type="text">
+        <br>
+        Date<input type="text">
+    </div>
+</div>
+
+
+<div id="button">
+    <input type="button" value="+ Add Customer">
+</div>
+
+<div id="button2">
+    <input type="button" value="- Remove Customer">
+</div>
+
+
+
+</body>
+</html>

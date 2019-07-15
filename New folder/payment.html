@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="New folder/m.png">
+
+    <style>
+        @media all and (max-width:1440px ) {
+            #headline {
+                width: 1340px;
+                height: 80px;
+                background-color: lightgoldenrodyellow;
+                border: 1px solid black;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            }
+          body {
+            font-family: sans-serif;
+          }
+
+            ul {
+                list-style-type: none;
+                margin-top: 5px;
+                padding: 0;
+                width: 250px;
+                height: 550px;
+                background-color: #f1f1f1;
+                position: absolute;
+            }
+
+            ul {
+                list-style-type: none;
+                margin-top: 8px;
+                position:absolute;s
+                padding: 0;
+                width: 200px;
+                background-color: #f1f1f1;
+                border: solid black 1px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            li a {
+                display: block;
+                color: #000;
+                padding: 8px 0 8px 16px;
+                text-decoration: none;
+            }
+
+            li a.active {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #555;
+                color: white;
+            }
+
+            #search {
+                position: absolute;
+                margin-left: 998px;
+                margin-top: 10px;
+            }
+
+            #image {
+                position: absolute;
+                margin-bottom: 30px;
+            }
+
+            #sheet {
+                background-color: lightgoldenrodyellow;
+                width: 1340px;
+                height: 500px;
+                position: absolute;
+                margin-top: 180px;
+            }
+
+            #head {
+                position: absolute;
+                margin-left: 400px;
+                margin-top: 5px;
+                font-family: Sans-Serif;
+
+            }
+
+            #img {
+                position: absolute;
+                margin-top: 18px;
+                margin-left: 330px;
+            }
+
+            #area {
+                position: absolute;
+                margin-top: 10px;
+                margin-left: 350px;
+            }
+
+            #bak {
+                position: absolute;
+                margin-top: 10px;
+                margin-left: 300px;
+                background-color: lightblue;
+                width: 500px;
+                height: 550px;
+            }
+
+            #pay {
+                margin-top: 500px;
+                margin-left: 580px;
+                position: absolute;
+            }
+        }
+
+        @media all and (max-width:375px ) {
+            #headline {
+                width: 1340px;
+                height: 80px;
+                background-color: lightgoldenrodyellow;
+                border: 1px solid black;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            }
+
+            ul {
+                list-style-type: none;
+                margin-top: 800px;
+                padding: 0;
+                width: 250px;
+                height: 850px;
+                background-color: #f1f1f1;
+                position: absolute;
+            }
+
+            ul {
+                list-style-type: none;
+                margin-top: 700px;
+                margin-left: 200px;
+                padding: 0;
+                width: 800px;
+                background-color: #f1f1f1;
+                border: solid black 1px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            li a {
+                display: block;
+                color: #000;
+                padding: 8px 0 8px 16px;
+                text-decoration: none;
+            }
+
+            li a.active {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #555;
+                color: white;
+            }
+
+            #search {
+                position: absolute;
+                margin-left: 998px;
+                margin-top: 10px;
+            }
+
+            #image {
+                position: absolute;
+                margin-bottom: 30px;
+            }
+
+            #sheet {
+                background-color: lightgoldenrodyellow;
+                width: 1340px;
+                height: 1400px;
+                position: absolute;
+                margin-top: 180px;
+            }
+
+            #head {
+                position: absolute;
+                margin-left: 400px;
+                margin-top: 5px;
+                font-family: Sans-Serif;
+
+            }
+
+            #img {
+                position: absolute;
+                margin-top: 18px;
+                margin-left: 330px;
+            }
+
+            #area {
+                position: absolute;
+                margin-top: 10px;
+                margin-left: 350px;
+            }
+
+            #bak {
+                position: absolute;
+                margin-top: 10px;
+                margin-left: 300px;
+                background-color: lightblue;
+                width: 500px;
+                height: 600px;
+            }
+
+            #pay {
+                margin-top: 500px;
+                margin-left: 580px;
+                position: absolute;
+            }
+        }
+    </style>
+</head>
+
+
+<body bgcolor="red">
+
+<div id="image">
+    <img src="New folder/a.jpg" alt="logo" width="120"height="80">
+</div>
+
+<div id="head">
+    <h1> Submit Payment</h1>
+</div>
+
+<div id="img">
+    <img src="New folder/pay.png" alt="logo">
+</div>
+
+<div id="headline">
+    <div id="search">
+        <form action="">
+            <input type="textarea" value="search here">
+            <button type="button">search</button>
+            <img src="New folder/mag.png" alt="search" height="30" width="30">
+        </form>
+    </div>
+</div>
+
+<div id="sheet"></div>
+
+
+<div id="bak"></div>
+
+<div id="pay">
+    <form>
+        <input type="button" value="pay" onclick="window.location.href='thanks.html'" >
+    </form>
+</div>
+
+<div id="area">
+    <form action="photo.html">
+        <h3> Input your details</h3>
+        Name : <textarea name="add items" id="1" cols="20" rows="1"  input items></textarea>
+        <br>
+        <br>
+        <br>
+        Password :<textarea name="add items" id="12" cols="20" rows="1"  input items></textarea>
+        <br>
+        <br>
+        <br>
+       Customer Id :<textarea name="add items" id="12" cols="20" rows="1"  input items></textarea>
+        <br>
+        <br>
+        <br>
+        Contact no :<textarea name="add items" id="12" cols="20" rows="1"  input items></textarea>
+        <br>
+        <br>
+        <br>
+        Credit/Debit card number :<textarea name="add items" id="12" cols="20" rows="1"  input items></textarea>
+        <br>
+        <br>
+        <br>
+        password :<textarea name="add items" id="12" cols="20" rows="1"  input items></textarea>
+        <br>
+        <br>
+        <br>
+       E-mail :<textarea name="add items" id="12" cols="20" rows="1"  input items></textarea>
+        <br>
+        <br>
+    </form>
+</div>
+
+
+<ul>
+    <li><a  href="home.html">Home</a></li>
+    <br>
+    <li><a href="prices.html">Today prices</a></li>
+    <br>
+    <li><a href="customer1.html">Customer</a></li>
+    <br>
+    <li><a  class="active" href="customer.html">Oder goods</a></li>
+    <br>
+    <li><a href="aboutus.html">About us</a></li>
+    <br>
+    <li><a href="suppliers.html">suppliers</a></li>
+    <br>
+    <li><a  href="index.html">Log out</a></li>
+    <br>
+</ul>
+
+
+
+</body>
+</html>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>  SUPPLY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="this web site is for srilanken customers">
+    <meta name="keyword" content="goods price,buy goods,food city">
+    <link rel="icon" href="New folder/m.png">
+    <style>
+        @media all and (max-width:1440px ) {
+            #headline {
+                width: 1340px;
+                height: 80px;
+                background-color: lightgoldenrodyellow;
+                border: 1px solid black;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+          body {
+            font-family: sans-serif;
+          }
+
+            #sheet {
+                background-color: lightgoldenrodyellow;
+                width: 1340px;
+                height: 500px;
+                position: absolute;
+                margin-top: 200px;
+
+            }
+
+            #title {
+                margin-top: 5px;
+                margin-left: 500px;
+                position: absolute;
+                color: black;
+            }
+
+            ul {
+                list-style-type: none;
+                margin-top: 8px;
+                padding: 0;
+                width: 250px;
+                height: 550px;
+                background-color: #f1f1f1;
+                position: absolute;
+                border: solid black 1px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            ul {
+                list-style-type: none;
+                margin-top: 8px;
+                padding: 0;
+                width: 200px;
+                background-color: #f1f1f1;
+            }
+
+            li a {
+                display: block;
+                color: #000;
+                padding: 8px 0 8px 16px;
+                text-decoration: none;
+            }
+
+            li a.active {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #555;
+                color: white;
+            }
+
+            #add{
+                width: 800px;
+                height: 300px;
+                position: absolute;
+                margin-left: 300px;
+                margin-top:40px;
+                background-color: gold;
+            }
+            #search {
+                position: absolute;
+                margin-left: 998px;
+                margin-top: 10px;
+            }
+
+
+            #logo {
+                position: absolute;
+                margin-left: 300px;
+                margin-top: 20px;
+
+            }
+
+            #image {
+                position: absolute;
+                margin-bottom: 30px;
+            }
+            #add1{
+                position: absolute;
+                margin-left: 100px;
+                margin-top: 70px;
+            }
+#button{
+    margin-top: 310px;
+    margin-left: 850px;
+    position: absolute;
+}
+#button2{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 580px;
+}
+            table {
+                width:1800px%;
+                height: 200px;
+                position: absolute;
+                margin-left: 400px;
+                margin-top: 360px;
+            }
+            table, th, td {
+                border: 1px solid #101a01;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 15px;
+                text-align: left;
+            }
+            table#t01 tr:nth-child(even) {
+                background-color: #eee;
+            }
+            table#t01 tr:nth-child(odd) {
+                background-color: #fff;
+            }
+            table#t01 th {
+                background-color: #fec320;
+                color: white;
+            }
+        }
+        @media all and (max-width:375px ) {
+            #headline {
+                width: 1300px;
+                height: 80px;
+                background-color: lightgoldenrodyellow;
+                border: 1px solid black;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                margin-left: 0px;
+            }
+
+            #sheet {
+                background-color: lightgoldenrodyellow;
+                width: 1340px;
+                height: 1300px;
+                position: absolute;
+                margin-top: 200px;
+
+            }
+
+            #title {
+                position: absolute;
+                margin-left: 220px;
+                margin-top: 10px;
+                margin-right: 0px;
+                color: black;
+                font-size: 12pt;
+            }
+
+            ul {
+                list-style-type: none;
+                margin-top: 8px;
+                padding: 0;
+                width: 100px;
+                height: 750px;
+                background-color: #f1f1f1;
+                position: absolute;
+                border: solid black 1px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            ul {
+                list-style-type: none;
+                margin-top: 1000px;
+                margin-left: 150px;
+                padding: 0;
+                width: 680px;
+                background-color: #f1f1f1;
+            }
+
+            li a {
+                display: block;
+                color: #000;
+                padding: 8px 0 8px 16px;
+                text-decoration: none;
+            }
+
+            li a.active {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #555;
+                color: white;
+            }
+
+            #search {
+                position: absolute;
+                margin-left: 900px;
+                margin-top: 10px;
+            }
+
+            #logo {
+                position: absolute;
+                margin-left: 540px;
+                margin-top: 20px;
+
+            }
+
+            #add {
+                width: 800px;
+                height: 500px;
+                position: absolute;
+                margin-left: 200px;
+                margin-top: 100px;
+                background-color: gold;
+            }
+            #add1 {
+                position: absolute;
+                margin-left: 100px;
+            }
+
+            #image {
+                position: absolute;
+                margin-bottom: 30px;
+            }
+
+            table {
+                width: 2000px%;
+                height: 300px;
+                position: absolute;
+                margin-left: 400px;
+                margin-top: 620px;
+            }
+
+            table, th, td {
+                border: 1px solid #101a01;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                padding: 15px;
+                text-align: left;
+            }
+
+            table#t01 tr:nth-child(even) {
+                background-color: #eee;
+            }
+
+            table#t01 tr:nth-child(odd) {
+                background-color: #fff;
+            }
+
+            table#t01 th {
+                background-color: #fec320;
+                color: white;
+            }
+            #button{
+                margin-top: 510px;
+                margin-left: 850px;
+                position: absolute;
+            }
+            #button2{
+                position: absolute;
+                margin-left: 900px;
+                margin-top: 960px;
+            }
+
+        }
+
+    </style>
+</head>
+<body bgcolor="red">
+
+<div id="title">
+    <h1> SUPPLIERS</h1>
+</div>
+<div id="sheet"></div>
+
+
+<div id="image">
+    <img src="New folder/a.jpg" alt="logo" width="120" height="80">
+</div>
+
+<div id="logo">
+    <img src="New folder/sup.ico" alt="logo">
+</div>
+
+<div id="headline">
+    <div id="search">
+        <form action="">
+            <input type="textarea" value="search here">
+            <button type="button">search</button>
+            <img src="New folder/mag.png" alt="search" height="30" width="30">
+        </form>
+    </div>
+</div>
+
+
+
+
+
+<ul>
+    <li><a  href="home.html">Home</a></li>
+    <br>
+    <li><a href="prices.html">Today prices</a></li>
+    <br>
+    <li><a href="customer1.html">Customer</a></li>
+    <br>
+    <li><a href="index.html">Oder goods</a></li>
+    <br>
+    <li><a href="aboutus.html">About us</a></li>
+    <br>
+    <li><a class="active" href="suppliers.html">suppliers</a></li>
+    <br>
+    <li><a href="index.html">Log out</a></li>
+    <br>
+</ul>
+
+<div>
+<table id="t01" border="2">
+    <tr>
+        <th>suplier</th>
+        <th>suplier id</th>
+        <th>Quentity</th>
+        <th>Price (Rs)</th>
+        <th>Item</th>
+      <th>Item quantity</th>
+        <th>Item code</th>
+        <th>Date supplied</th>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>001</td>
+        <td>500</td>
+        <td>15000</td>
+        <td>xy</td>
+      <td>100</td>
+        <td>I001</td>
+        <td>2018.10.10</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>002</td>
+        <td>800</td>
+        <td>150500</td>
+        <td>Ay</td>
+      <td>100</td>
+        <td>I002</td>
+        <td>2019.01.07</td>
+    </tr>
+    <tr>
+        <td>C</td>
+        <td>003</td>
+        <td>200</td>
+        <td>5000</td>
+        <td>By</td>
+      <td>100</td>
+        <td>I003</td>
+        <td>2019.01.27</td>
+    </tr>
+</table>
+</div>
+
+
+<div id="add">
+              <div id="add1">
+              <B> Add supplier here :</B>
+    <br>
+    <br>
+    <br>
+    supplier<input type="text">
+
+    supplier id <input type="text">
+    <br>
+    <br>
+    Quentity<input type="text">
+
+    Price (Rs)<input type="text">
+    <br>
+    <br>
+    Item<input type="text">
+                Item Quantity<input type="text">
+                <br>
+                <br>
+
+    Item code<input type="text">
+
+    Date supplied<input type="text">
+    <br>
+              </div>
+</div>
+
+
+
+<div id="button">
+    <input type="button" value="+ Add supppliers">
+</div>
+
+<div id="button2">
+    <input type="button" value="- Remove suppliers">
+</div>
+</body>
+</html>
